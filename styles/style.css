@@ -1,0 +1,191 @@
+/*
+filename: Jack Betson
+Author: Jack Betson
+Created: 18/06/2020
+Last Modified: 28/06/2020
+Description: CSS styling for Assignment 1
+*/
+
+/*global font and text alignment*/
+* {
+	font-family: "Times New Roman", Arial; 
+	color: white;
+	text-align: center;
+	font-size: 20px;
+}
+
+/*global properties for all paragraphs and list elements*/
+p, ul, ol{
+	padding: 1em;
+	text-align: center;
+	margin: auto;
+	width: 50%;
+
+}
+
+/*ensure that all paragraphs are in line and none are sharing the screen*/
+p {
+	clear: left;
+}
+
+/*global heading 1 properties*/
+h1 {
+	font-family: Copperplate, Optima;
+	font-size: 40px
+}
+
+/*global heading 2 properties*/
+h2{
+	font-size: 35px;
+}
+
+/*global heading 3 properties*/
+h3 {
+	font-size: 30px;
+}
+
+/*Group selector to set font for both heading 1 adn 2*/
+h2, h3 {
+	font-family: Cambria;
+}
+
+/*setting background image to be used on all pages*/
+body {
+	background-image: url("images/background.jpg");
+}
+
+/*global navigation set up*/
+nav a { 
+	text-decoration: none; padding: 0.2em 0.6em; border: 4px solid #ccc;
+}
+
+/*changing background and text colour if navigation menu element is hovered over*/
+nav a:hover {
+	background-color: yellow; border-color: purple;
+	color: black;
+}
+
+
+/*global footer properties*/
+footer {
+	border-top:4px double darkgray;
+	clear: both;
+}
+
+/*id selector to style a paragraph*/
+#RyanDahl {
+	border: 4px solid white;
+	border-radius: 14px;
+	margin: auto;
+	padding: 1em;
+	width: 30%;
+}
+
+/*making sure elements dont share the screen and are in line*/
+#intro {
+	clear: left;
+	text-align: center;
+}
+
+/*centering picture*/
+#RyanPic {
+	display: block;
+	width: 100%;
+}
+
+/*Contextual selecture to change the bold text to a different colour*/
+ul strong {
+	color: yellow;
+}
+
+/*styling the aside element*/
+aside {
+	border: 4px inset red;
+	border-radius: 14px;
+	margin: 1em;
+	padding: 1em;
+	float:right;
+	width: 25%;
+
+	text-align: center;
+}
+
+/*adding a border to the table*/
+th, td {
+	border: 2px solid white;
+}
+
+/*styling and positioning table*/
+table{
+	float: left;
+	margin: auto;
+	padding-left: 20%;
+
+}
+
+/*adding a background colour to the tabke headers*/
+th {
+	background-color: purple;
+}
+
+/*adding a background colour to the table data*/
+td {
+	background-color: green;
+}
+
+/*group selector to ensure paragrap and heading dont end up in middle of floating elements*/
+.Future {
+	clear: both;
+	padding-top: 20px;
+}
+
+/*changing the colour of the text so that text is visible on white textboxes*/
+input, select {
+	color: black;
+}
+
+#Bibliography {
+	padding: 20px;
+}
+
+#resultTable
+{
+	padding-left: 38%;
+}
+
+#manageTable
+{
+	padding-left: 42%;
+}
+
+#manageTable th
+{
+	background-color: black;
+}
+
+#resultTable th
+{
+	background-color: black;
+}
+
+/*Bibliography
+
+Wikipedia. 2020. Ryan Dahl - Wikipedia. Available at: https://en.wikipedia.org/wiki/Ryan_Dahl. [Accessed 26 August 2020].
+
+The H Open. 2013. The Node.js creation story. Available at: http://www.h-online.com/open/features/The-H-Speed-Guide-to-Node-js-1363974.html%3Fpage=2. [Accessed 27 August 2020].
+
+Node.js - Introduction - Tutorialspoint. 2020. Node.js - Introduction - Tutorialspoint.  Available at: https://www.tutorialspoint.com/nodejs/nodejs_introduction.htm. [Accessed 27 August 2020].
+
+Node.js. 2020. Node.js. Available at: https://nodejs.org/en/. [Accessed 25 August 2020].
+
+Tarun Nagar. 2020. Why node is the future?  Available at: https://yourstory.com/mystory/why-node-is-the-future. [Accessed 31 August 2020].
+
+Wikipedia. 2020. Node.js - Wikipedia.  Available at: https://en.wikipedia.org/wiki/Node.js. [Accessed 25 August 2020].
+
+W3Schools. 2020. HTML YouTube Videos. Available at: https://www.w3schools.com/html/html_youtube.asp. [Accessed 31 August 2020].
+
+
+Telusko. 2020. What is Node js? | Why it is so Famous? - YouTube. [ONLINE] Available at: https://youtu.be/yEHCfRWz-EI. [Accessed 31 August 2020].
+
+W3Schools. 2020. HTML Image Maps. [ONLINE] Available at: https://www.w3schools.com/html/html_images_imagemap.asp. [Accessed 31 August 2020].
+*/
